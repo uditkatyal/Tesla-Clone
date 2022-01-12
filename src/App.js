@@ -4,6 +4,7 @@ import { Counter } from "./features/counter/Counter";
 import "./App.css";
 import Header from "./MyComponents/Header";
 import Home from "./MyComponents/Home";
+import Footer from "./MyComponents/Footer";
 
 function App() {
   return (
