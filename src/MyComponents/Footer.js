@@ -43,6 +43,7 @@ const FooterPart = styled.div`
   position: fixed;
   display: flex;
   justify-content: center;
+  top:50vh;
   bottom: 0;
   margin-top :auto;
 
@@ -54,5 +55,10 @@ const FooterPart = styled.div`
       font-weight: 600;
       color: rgba(0,0,0,0.5);
     text-decoration: none;
+  }
+
+  @media (max-width: 768px) {
+    
+    flex-direction: column
   }
 `;
